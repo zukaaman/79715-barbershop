@@ -202,7 +202,7 @@ a {
   line-height: 20px;
   text-align: center;
 
-  background-color:#e5e5e5;
+  background-color: #e5e5e5;
 }
 
 .catalog-item-price .button {
@@ -247,11 +247,11 @@ a {
 }
 
 .product-photos-preview li {
-  box-shadow: 0 0 15px 2px rgba(0, 0, 0, 0.2)
+  box-shadow: 0 0 15px 2px rgba(0, 0, 0, 0.2);
 }
 
 .product-photos-full {
-  box-shadow: 0 0 15px 2px rgba(0, 0, 0, 0.2)
+  box-shadow: 0 0 15px 2px rgba(0, 0, 0, 0.2);
 }
 
 .product-article {
@@ -275,6 +275,32 @@ a {
   list-style: none;
 }
 
+/*-----------------------price-list----------------*/
+
+.price-list-title p {
+  font-size: 48px;
+  line-height: 48px;
+}
+
+.resources h2 {
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.resources ul {
+  list-style: none;
+}
+
+.our-prices h2 {
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.our-prices table {
+  border: 2px solid #000000;
+}
+
+
 /*--------------------------------------------*/
 
 .main-footer {
@@ -288,7 +314,7 @@ a {
 
 .footer-contacts a {
   color: #ffffff;
-  text-decoration: underline;;
+  text-decoration: underline;
 }
 
 .footer-contacts a:hover,
@@ -354,35 +380,10 @@ a {
 
 .restore {
   color: #000000;
-  text-decoration: underline;;
+  text-decoration: underline;
 }
 
 .restore:hover,
 .restore:focus {
   text-decoration: none;
-}
-
-/*-----------------------price-list----------------*/
-
-.price-list-title p {
-  font-size: 48px;
-  line-height: 48px;
-}
-
-.resources h2 {
-  font-size: 24px;
-  line-height: 30px;
-}
-
-.resources ul {
-  list-style: none;
-}
-
-.our-prices h2 {
-  font-size: 24px;
-  line-height: 30px;
-}
-
-.our-prices table {
-  border: 2px solid #000000;
 }
