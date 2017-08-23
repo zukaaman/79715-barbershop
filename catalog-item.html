@@ -3,13 +3,15 @@
   <head>
     <meta charset="utf-8">
     <title>Страница товара</title>
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&amp;subset=cyrillic" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
   </head>
-  <body>
-		
+  <body class="inner-page">
+
 		<header class="main-header">
 			<nav class="main-navigation">
-				<a class="main-header-logo" href="index.html">	
+				<a class="main-header-logo" href="index.html">
 					<img src="img/logo.svg" width="111" height="24" alt="Логотип барбершопа  &#171;Бородинский&#187;">
 				</a>
 				<ul class="site-navigation">
@@ -28,9 +30,9 @@
   	</header>
 
   	<main class="container">
-  		
+
   		<h1 class="page-title">Набор средств для путешествий «Baxter of California»</h1>
-  		
+
   		<ul class="breadcrumbs">
   			<li><a href="index.html">Главная</a></li>
   			<li><a href="#">Магазин</a></li>
@@ -40,10 +42,10 @@
 
   		<section class="product-photos">
   			<h2 class="visually-hidden">Изображения товара</h2>
-  			<p class="product-photos-full">	
+  			<p class="product-photos-full">
   				<img src="img/item-7.jpg" width="460" height="498" alt="Фото всего набора">
 				</p>
-				<ul>
+				<ul class="product-photos-preview">
 					<li>
 						<img src="img/item-8.jpg" width="140" height="149" alt="Фото в анфас">
 					</li>
@@ -56,8 +58,8 @@
 				</ul>
   		</section>
 
-  		<section class="visually-hidden">
-  			<h2>Описание товара</h2>
+  		<section class="product-info">
+  			<h2  class="visually-hidden">Описание товара</h2>
   			<p class="product-availability">Есть в наличии</p>
   			<p class="product-article">Артикул: dexter-ae</p>
   			<p class="product-text">Travel Kit &mdash; необходимый аксессуар во время любого путешествия. В аккуратной кожаной суике находится все, что нужно для бритья и ухода за кожей во время рабочей поездки или отдыха: средство для умывания, увлажняющий крем, крем для бритья, крем после бритья, шампунь. Набор также может стать отличным подарком.</p>
@@ -110,7 +112,7 @@
           <input class="login-icon-user" id="user-password" type="password" name="password" placeholder="Пароль">
         </p>
         <p class="login-icon-password">
-          <label class="login-checkbox">  
+          <label class="login-checkbox">
             <input class="visually-hidden" type="checkbox" name="remember">
             Запомните меня
           </label>

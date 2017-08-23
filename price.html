@@ -3,13 +3,15 @@
   <head>
     <meta charset="utf-8">
     <title>Прайс-лист</title>
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&amp;subset=cyrillic" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
   </head>
-  <body>
-		
+  <body class="inner-page">
+
 		<header class="main-header">
 			<nav class="main-navigation">
-				<a class="main-header-logo" href="index.html">	
+				<a class="main-header-logo" href="index.html">
 					<img src="img/logo.svg" width="111" height="24" alt="Логотип барбершопа  &#171;Бородинский&#187;">
 				</a>
 				<ul class="site-navigation">
@@ -20,21 +22,23 @@
 					<li><a href="contacts.html">Контакты</a></li>
 				</ul>
 				<ul class="user-navigation">
-					<li class="login-link">Вход</li>
+					<li class="login-link">
+            <a class="login-link" href="login.html">Вход</a>
+          </li>
 				</ul>
 			</nav>
   	</header>
 
   	<main class="container">
-  		
+
       <h1 class="page-title">Прайс-лист</h1>
 
       <ul class="breadcrumbs">
   			<li><a href="index.html">Главная</a></li>
-  			<li>Прайс-лист</li>
+  			<li class="breadcrumbs-current">Прайс-лист</li>
   		</ul>
 
-  		<div>
+  		<div class="price-list-title">
   			<p>Истинно мужская классика</p>
 			</div>
 
@@ -94,25 +98,29 @@
 			</p>
   	</footer>
 
-  	<section class="modal modal-login">
-  		<h2>Личный кабинет</h2>
-  		<p>Введите пожалуйста свой логин и пароль</p>
-  		<form class="login-form" action="https://echo.htmlacademy.ru" method="post">
-  			<p>
-  				<input class="login-icon-user" type="text" name="login" placeholder="Логин">
-  			</p>
-  			<p>
-  				<input class="login-icon-user" type="password" name="password" placeholder="Пароль">
-  			</p>
-  			<p class="login-icon-password">
-  				<input class="visually-hidden" type="checkbox" name="remember">
-  				Запомните меня
-  				<a class="restore" href="#">Я забыл пароль!</a>
-				</p>
-				<button class="button" type="submit">Войти</button>
-  		</form>
-  		<span class="modal-close">x</span>
-  	</section>
+    <section class="modal modal-login">
+      <h2>Личный кабинет</h2>
+      <p>Введите пожалуйста свой логин и пароль</p>
+      <form class="login-form" action="https://echo.htmlacademy.ru" method="post">
+        <p>
+          <label class="visually-hidden" for="user-login">Логин</label>
+          <input class="login-icon-user" id="user-login" type="text" name="login" placeholder="Логин">
+        </p>
+        <p>
+          <label class="visually-hidden" for="user-password">Пароль</label>
+          <input class="login-icon-user" id="user-password" type="password" name="password" placeholder="Пароль">
+        </p>
+        <p class="login-icon-password">
+          <label class="login-checkbox">
+            <input class="visually-hidden" type="checkbox" name="remember">
+            Запомните меня
+          </label>
+          <a class="restore" href="#">Я забыл пароль!</a>
+        </p>
+        <button class="button" type="submit">Войти</button>
+      </form>
+      <button class="modal-close">Закрыть</button>
+    </section>
 
   </body>
 </html>

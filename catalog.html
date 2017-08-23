@@ -3,13 +3,15 @@
   <head>
     <meta charset="utf-8">
     <title>Каталог</title>
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&amp;subset=cyrillic" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
   </head>
-  <body>
-		
+  <body class="inner-page">
+
 		<header class="main-header">
 			<nav class="main-navigation">
-				<a class="main-header-logo" href="index.html">	
+				<a class="main-header-logo" href="index.html">
 					<img src="img/logo.svg" width="111" height="24" alt="Логотип барбершопа  &#171;Бородинский&#187;">
 				</a>
 				<ul class="site-navigation">
@@ -28,7 +30,7 @@
   	</header>
 
   	<main class="container">
-  		
+
   		<h1 class="page-title">Средства для ухода</h1>
 
   		<ul class="breadcrumbs">
@@ -36,7 +38,7 @@
   			<li><a href="catalog.html">Магазин</a></li>
   			<li class="breadcrumbs-current">Средства для ухода</li>
   		</ul>
-  		
+
   		<section class="filters">
 	  		<h2 class="visually-hidden">Фильтр для товаров</h2>
 	  		<form class="filter" method="get" action="https://echo.htmlacademy.ru">
@@ -48,7 +50,7 @@
 	  						<label for="filter-baxter-of-california">Baxter of California</label>
 	  					</li>
 	  					<li class="filter-option">
-	  						<input class="visually-hidden filter-input filter-input-checkbox" id="filter-mr-natty" type="checkbox" name="mr-natty">
+	  						<input class="visually-hidden filter-input filter-input-checkbox" id="filter-mr-natty" type="checkbox" name="mr-natty" disabled>
 	  						<label for="filter-mr-natty">Mr Natty</label>
 	  					</li>
 	  					<li class="filter-option">
@@ -109,7 +111,7 @@
   					</p>
   				</li>
   				<li class="catalog-item">
-    				<a href="catalog-item.html">	
+    				<a href="catalog-item.html">
               <h3>
   							<span class="catalog-category">Увлажняющий кондиционер</span>
   							<span class="catalog-item-title">&#171;Baxter of California&#187;</span>
@@ -154,7 +156,7 @@
   					</p>
   				</li>
   				<li class="catalog-item">
-    				<a href="catalog-item.html">	
+    				<a href="catalog-item.html">
               <h3>
   							<span class="catalog-category">Гель для волос</span>
   							<span class="catalog-item-title">&#171;American crew&#187;</span>
@@ -227,7 +229,7 @@
           <input class="login-icon-user" id="user-password" type="password" name="password" placeholder="Пароль">
         </p>
         <p class="login-icon-password">
-          <label class="login-checkbox">  
+          <label class="login-checkbox">
             <input class="visually-hidden" type="checkbox" name="remember">
             Запомните меня
           </label>
