@@ -11,7 +11,7 @@ body {
 
 	background-color: #000000;
 	background-image: url("../img/bg.jpg");
-	background-position: top center;
+	background-position: center 40px;
 	background-repeat: no-repeat;
 }
 
@@ -30,7 +30,6 @@ a {
 
 .button {
   font: inherit;
-
   text-align: center;
   color: #ffffff;
   vertical-align: middle;
@@ -386,4 +385,301 @@ a {
 .restore:hover,
 .restore:focus {
   text-decoration: none;
+}
+
+
+/*----------------------------------------------------*/
+.visually-hidden {
+  display: none;
+}
+
+.container {
+  width: 940px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.main-header {
+  margin-bottom: 75px;
+
+  /*временно для сетки*/
+  min-height: 288px;
+}
+
+.inner-page .main-header {
+  margin-bottom: 54px;
+
+  background-color: #000000;
+
+  /*временно для сетки*/
+  min-height: 72px;
+}
+
+.main-navigation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  /*временно для сетки*/
+  min-height: 285px;
+  background-color: transparent;
+}
+
+.inner-page .main-navigation {
+  flex-direction: row;
+  align-items: flex-start;
+
+  /*временно для сетки*/
+  min-height: 72px;
+}
+
+.main-header-logo {
+  order: 2;
+  width: 369px;
+  height: 153px;
+
+  /*временно для сетки*/
+/*  display: block;
+*/}
+
+.inner-page .main-header-logo {
+  order: 0;
+  width: 111px;
+  height: 24px;
+  padding: 23px 20px;
+}
+
+.main-navigation-wrapper {
+  width: 100%;
+  margin-bottom: 60px;
+
+  background-color: #000000;
+
+  /*временно для сетки*/
+  min-height: 72px;
+}
+
+.main-navigation-wrapper .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.site-navigation {
+  width: 620px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  /*временно для сетки*/
+  min-height: 72px;
+}
+
+.user-navigation {
+  width: 140px;
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+  /*временно для сетки*/
+  min-height: 72px;
+}
+
+.inner-page .user-navigation {
+  margin-left: auto;
+}
+
+.features {
+  margin-bottom: 80px;
+}
+
+.features-list {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+
+  /*временно для сетки*/
+  min-height: 170px;
+}
+
+.features-item {
+  width: 300px;
+
+  /*временно для сетки*/
+  min-height: 170px;
+}
+
+.index-columns {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 80px;
+  margin-bottom: 36px;
+
+  /*временно для сетки*/
+  min-height: 315px;
+}
+
+.news {
+  width: 380px;
+
+  /*временно для сетки*/
+  min-height: 315px;
+}
+
+.gallery {
+  width: 300px;
+
+  /*временно для сетки*/
+  min-height: 315px;
+}
+
+.contacts {
+  width: 380px;
+
+  /*временно для сетки*/
+  min-height: 295px;
+}
+
+.appointment {
+  width: 300px;
+
+  /*временно для сетки*/
+  min-height: 340px;
+}
+
+.page-title {
+  margin: 0;
+  margin-bottom: 20px;
+  padding: 0;
+
+  /*временно для сетки*/
+  min-height: 42px;
+}
+
+.breadcrumbs {
+  margin: 0;
+  margin-bottom: 54px;
+  padding: 0;
+
+  /*временно для сетки*/
+  min-height: 20px;
+}
+
+.catalog-column-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.filters {
+  width: 180px;
+
+  /*временно для сетки*/
+  min-height: 600px;
+}
+
+.catalog {
+  width: 700px;
+
+  /*временно для сетки*/
+  min-height: 600px;
+}
+
+.catalog-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  margin-bottom: 45px;
+  padding: 0;
+
+  list-style: none;
+}
+
+.catalog-item {
+  width: 220px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+
+  /*временно для сетки*/
+  min-height: 287px;
+}
+
+.catalog-item:nth-child(3n) {
+  margin-right: 0;
+}
+
+.pagination-list {
+  width: 194px;
+  padding: 0;
+  margin: 0;
+
+  list-style: none;
+
+  /*временно для сетки*/
+  min-height: 47px;
+}
+
+.product-photos {
+  width: 460px;
+
+  /*временно для сетки*/
+  min-height: 670px;
+}
+
+.product-photos-preview {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.product-info {
+  width: 390px;
+
+  /*временно для сетки*/
+  min-height: 670px;
+}
+
+.main-footer {
+  margin-top: 65px;
+  padding: 60px 0;
+
+  /*временно для сетки*/
+  min-height: 193px;
+}
+
+.inner-page .main-footer {
+  margin-top: 60px;
+}
+
+.main-footer .container {
+  display: flex;
+}
+
+.footer-contacts {
+  width: 320px;
+  margin: 0;
+  margin-right: 80px;
+
+  /*временно для сетки*/
+  min-height: 100px;
+}
+
+.footer-social {
+  width: 145px;
+
+  /*временно для сетки*/
+  min-height: 100px;
+}
+
+.footer-copyright {
+  width: 150px;
+  margin: 0;
+  margin-left: auto;
+
+  /*временно для сетки*/
+  min-height: 100px;
 }
